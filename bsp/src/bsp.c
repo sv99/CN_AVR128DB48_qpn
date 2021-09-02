@@ -49,7 +49,7 @@ void BSP_initSetup(void)
     LOGGER_TXD_PORT.DIRSET = LOGGER_TXD_PIN_bm;
 
     /* alternative position */
-    PORTMUX.USARTROUTEA |= PORTMUX_USART20_bm;
+    // PORTMUX.USARTROUTEA |= PORTMUX_USART30_bm;
 
     BSP_LOGGER_init();
 };
